@@ -1,0 +1,42 @@
+# .gitignore
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files and backups
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+*.swp
+*.swo
+
+# Ignore logs
+*.log
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Node dependencies
+node_modules/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+build/
+dist/
+
+# OS specific
+Icon?
+ehthumbs.db
+
+# Ignore Git directory (should never be committed)
+.git/
